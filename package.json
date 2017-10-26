@@ -4,6 +4,7 @@
   "description": "Minha biblioteca do curso js com tdd na prática",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/marinhoOliv/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/marinhoOliv/js-tdd-course#readme"
+  "homepage": "https://github.com/marinhoOliv/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
 }
